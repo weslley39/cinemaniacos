@@ -34,6 +34,8 @@ h1, h2, h3, h4, h5, h6 {
       color: #8b8b97;
       text-decoration: none;
       margin-right: 1em; }
+      .top-header .navbar a:hover {
+        color: #73e298; }
 
 .banner {
   background: url(../images/banner_background.png);
@@ -121,8 +123,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 2.5%; }
     .row .post img {
       width: 100%;
-      max-width: 100%;
       border-radius: .5em; }
+      .row .post img:hover {
+        width: 110%; }
     .row .post .title {
       font-size: 1.25em;
       margin: 1em 0 0 0;
@@ -131,3 +134,58 @@ h1, h2, h3, h4, h5, h6 {
       font-size: .75em;
       color: #8b8b97;
       margin: 0.5em 0; }
+
+.newsletter {
+  padding: 5em 0;
+  text-align: center;
+  background: #2a2a2e; }
+  .newsletter .newsletter-inner {
+    width: 600px;
+    margin: 0 auto; }
+  .newsletter h2 {
+    font-size: 1.75em;
+    color: #FFFFFF; }
+  .newsletter .signup-form {
+    margin-top: 3em; }
+    .newsletter .signup-form input {
+      width: 48%;
+      margin: 0 .5%;
+      height: 3.25em;
+      border: none;
+      outline: none;
+      border-radius: .3em;
+      background: #404043;
+      padding: .5em 1.25em;
+      font-size: .8em;
+      color: #FFFFFF; }
+    .newsletter .signup-form .button {
+      border: none;
+      outline: none;
+      padding: 1em 4.5em;
+      border-radius: 2em;
+      background: #73e298;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: .9em;
+      margin-top: 3em; }
+
+.main-footer {
+  padding: 2.5em 0;
+  text-align: center; }
+  .main-footer .logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700; }
+  .main-footer .copyright {
+    color: #8b8b97;
+    font-size: .75em;
+    margin: 0; }
+  .main-footer .links {
+    display: inline; }
+    .main-footer .links a {
+      color: #8b8b97;
+      text-decoration: none;
+      font-size: .75em;
+      margin: 0 .5em; }
+      .main-footer .links a:hover {
+        color: #73e298; }

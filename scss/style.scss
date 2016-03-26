@@ -50,6 +50,9 @@ h1, h2, h3, h4, h5, h6 {
       color: $secondary;
       text-decoration: none;
       margin-right: 1em;
+        &:hover {
+          color: $highlight;
+        }
     }
   }
 }
@@ -167,8 +170,12 @@ h1, h2, h3, h4, h5, h6 {
 
     img {
       width: 100%;
-      max-width: 100%;
+      // max-width: 100%;
       border-radius: .5em;
+
+      &:hover {
+        width: 110%;
+      }
     }
 
     .title {
@@ -181,6 +188,75 @@ h1, h2, h3, h4, h5, h6 {
       font-size: .75em;
       color: $secondary;
       margin: 0.5em 0;
+    }
+  }
+}
+
+
+
+.newsletter {
+  padding: 5em 0;
+  text-align: center;
+  background: #2a2a2e;
+  .newsletter-inner {
+    width: 600px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.75em;
+    color: $white;
+  }
+  .signup-form {
+    margin-top: 3em;
+    input {
+      width: 48%;
+      margin: 0 .5%;
+      height: 3.25em;
+      border: none;
+      outline: none;
+      border-radius: .3em;
+      background: #404043;
+      padding: .5em 1.25em;
+      font-size: .8em;
+      color: $white;
+    }
+    .button {
+      border: none;
+      outline: none;
+      padding: 1em 4.5em;
+      border-radius: 2em;
+      background: $highlight;
+      color: $white;
+      font-weight: 700;
+      font-size: .9em;
+      margin-top: 3em;
+    }
+  }
+}
+
+.main-footer {
+  padding: 2.5em 0;
+  text-align: center;
+  .logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700;
+  }
+  .copyright {
+    color: $secondary;
+    font-size: .75em;
+    margin: 0;
+  }
+  .links {
+    display: inline;
+    a {
+      color: $secondary;
+      text-decoration: none;
+      font-size: .75em;
+      margin: 0 .5em;
+      &:hover {
+        color: $highlight;
+      }
     }
   }
 }
